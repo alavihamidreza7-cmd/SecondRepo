@@ -60,7 +60,7 @@ int main(void){
             Array[0]=Members[k-1].name;
             continue;
         }
-       
+       //HELLO HOW ARE YOU??
         if(t==1){
             int SCORE=Members[k-1].Score-Members[k-2].Score;
             int rank=Calculation_Rank(S_Loosen,P_Loosen,SCORE);
@@ -68,7 +68,7 @@ int main(void){
         }
         
     }
-    
+    //HELLLO HOW ARE YOU22??
 
 
     //HELLLLLLLLLLLLO
