@@ -6,7 +6,7 @@
 #include<time.h>
 int main(){
     
-    //HELLLLLLLLLLLLO WORDLDDDDDDDDDDD;
-////////GOAJ;KJOIEJALKSSJG;OIHG;
+    ////hellllo
+
 
 }
