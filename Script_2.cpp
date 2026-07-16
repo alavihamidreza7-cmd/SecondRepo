@@ -6,6 +6,5 @@
 #include<time.h>
 int main(){
     
-   //hellllloooooo 
-
+   ///////////////GOOOODBYE
 }
