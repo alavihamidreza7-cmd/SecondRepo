@@ -1,0 +1,76 @@
+[33mcommit ee09d6b216a3b837cc6bf6f512f81811786e7c03[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: alavihamidreza7-cmd <alavihamidreza7@gmail.com>
+Date:   Fri Jul 17 13:20:18 2026 +0330
+
+    Update CompleteBinaryTree.h
+
+[1mdiff --git a/CompleteBinaryTree.h b/CompleteBinaryTree.h[m
+[1mindex 8cb4bb7..8b13789 100644[m
+[1m--- a/CompleteBinaryTree.h[m
+[1m+++ b/CompleteBinaryTree.h[m
+[36m@@ -1,65 +1 @@[m
+[31m-#ifndef COMPLETEBINARYTREE_H[m
+[31m-#define COMPLETEBINARYTREE_H[m
+[31m-#include<iostream>[m
+[31m-#include"BaseNode.h"[m
+[31m-#include"TreeNode.h"[m
+[31m-using namespace std;[m
+ [m
+[31m-template<typename T>[m
+[31m-class CompleteBinaryTree {[m
+[31m-private: [m
+[31m-	TreeNode<T>* root;[m
+[31m-	int size_of_BinaryTree;[m
+[31m-[m
+[31m-	int FIND_1;[m
+[31m-	int FIND_2;[m
+[31m-	int FLOOR;[m
+[31m-public:[m
+[31m-[m
+[31m-	CompleteBinaryTree();[m
+[31m-	~CompleteBinaryTree();[m
+[31m-	CompleteBinaryTree(CompleteBinaryTree<T>& other);[m
+[31m-	CompleteBinaryTree<T>& operator=(CompleteBinaryTree<T>& other);[m
+[31m-	void calculatingsize(void);[m
+[31m-	void insert(T value);[m
+[31m-	TreeNode<T>* getroot(void);[m
+[31m-	void removelast(void);[m
+[31m-	void levelOrderTraversal(void);[m
+[31m-	bool isEmpty(void) const;[m
+[31m-	int getsize_of_BinaryTree(void)const;[m
+[31m-	void clear(void);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-	TreeNode<T>* INSERT(TreeNode<T>* insert, int level, int mainsize);[m
+[31m-	void copy(TreeNode<T>* other, TreeNode<T>* second, int level, int mainsize);[m
+[31m-	TreeNode<T>* FindLast(TreeNode<T>* insert, int level, int mainsize);[m
+[31m-	void CLEAR_2(TreeNode<T>* other, int s, int mainsize);[m
+[31m-	void PRINTING(TreeNode<T>* other, int level, int mainsize);[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-};[m
+[31m-/*[m
+[31m-template<typename T>[m
+[31m-TreeNode<T>* INSERT(TreeNode<T>* insert, int level, int mainsize);[m
+[31m-template<typename T>[m
+[31m-void copy(TreeNode<T>* other, TreeNode<T>* second, int level, int mainsize);[m
+[31m-template<typename T>[m
+[31m-TreeNode<T>* FindLast(TreeNode<T>* insert, int level, int mainsize);[m
+[31m-template<typename T>[m
+[31m-void searching4(TreeNode<T>* other, int s, int mainsize);[m
+[31m-template<typename T>[m
+[31m-void searching6(TreeNode<T>* other, int level, int mainsize);[m
+[31m-*/[m
+[31m-[m
+[31m-#include"CompleteBinaryTree.tpp"[m
+[31m-#endif[m
